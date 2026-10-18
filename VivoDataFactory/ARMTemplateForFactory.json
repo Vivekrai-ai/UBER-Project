@@ -117,7 +117,7 @@
 											"type": "DatasetReference",
 											"parameters": {
 												"FileName": {
-													"value": "@{item()}.json",
+													"value": "@{item().file}",
 													"type": "Expression"
 												}
 											}
