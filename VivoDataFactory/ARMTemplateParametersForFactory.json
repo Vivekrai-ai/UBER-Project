@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "VivoDataFactory"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"SP_DataLake_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://vivostorageaccountname.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://vivokeyvault.vault.azure.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "vivoazureproject.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "Vivek_Rai"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "vivorai"
+		},
+		"HTTPDataIngestionGithub_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"SP_DataLake_properties_typeProperties_url": {
+			"value": "https://vivostorageaccountname.dfs.core.windows.net/"
+		}
+	}
+}
