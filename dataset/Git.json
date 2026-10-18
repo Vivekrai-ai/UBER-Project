@@ -1,0 +1,26 @@
+{
+	"name": "Git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HTTPDataIngestionGithub",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"fileName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "Vivekrai-ai/UBER-Project/refs/heads/main/Data/@{dataset().fileName}.json",
+					"type": "Expression"
+				}
+			}
+		},
+		"schema": {}
+	}
+}
