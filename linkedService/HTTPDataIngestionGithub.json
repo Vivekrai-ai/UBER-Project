@@ -1,0 +1,13 @@
+{
+	"name": "HTTPDataIngestionGithub",
+	"properties": {
+		"description": "Ingest data from GitHuub",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
