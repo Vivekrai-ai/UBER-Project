@@ -16,7 +16,7 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "Vivekrai-ai/UBER-Project/refs/heads/main/Data/@{dataset().fileName}.json",
+					"value": "Vivekrai-ai/UBER-Project/refs/heads/main/Data/@{dataset().fileName}",
 					"type": "Expression"
 				}
 			}
